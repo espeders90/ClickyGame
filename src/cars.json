@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "BMW",
+    "image": "https://www.cstatic-images.com/car-pictures/xl/usc60bmc111a021001.png",
+  },
+  {
+    "id": 2,
+    "name": "Mercedes",
+    "image": "http://st.motortrend.com/uploads/sites/10/2015/11/2016-mercedes-benz-cls-400-sedan-angular-front.png",
+  },
+  {
+    "id": 3,
+    "name": "Audi",
+    "image": "https://s.blogcdn.com/slideshows/images/slides/498/417/5/S4984175/slug/l/a172809-large-1.jpg",
+  },
+  {
+    "id": 4,
+    "name": "VW",
+    "image": "https://www.eurozone-motors.com/wp-content/uploads/2017/07/Volkswagen-repair.jpg",
+  },
+  {
+    "id": 5,
+    "name": "Porsche",
+    "image": "https://files.porsche.com/filestore/image/multimedia/none/991-2nd-gt2-rs-modelimage-sideshot/model/ed0a4842-451d-11e7-bfe2-0019999cd470/porsche-model.png",
+  },
+  {
+    "id": 6,
+    "name": "Ferrari",
+    "image": "https://media.caranddriver.com/images/14q2/584476/2014-ferrari-laferrari-first-drive-review-car-and-driver-photo-584762-s-450x274.jpg",
+  },
+  {
+    "id": 7,
+    "name": "Lamborghini",
+    "image": "https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png",
+  },
+  {
+    "id": 8,
+    "name": "Nissan",
+    "image": "https://www.nissanusa.com/dam/nissan/vehicles/sportscars/gt-r/2018/overview/key-features/2018-nissan-gtr-white-large.jpg",
+  },
+  {
+    "id": 9,
+    "name": "Mitsubishi",
+    "image": "https://img.gta5-mods.com/q95/images/mitsubishi-lancer-evo-x/2dfe45-20872927093_6064cfbf0b_o.jpg",
+  },
+  {
+    "id": 10,
+    "name": "Subaru",
+    "image": "http://st.motortrend.com/uploads/sites/10/2016/05/2017-subaru-wrx-sti-base-sedan-angular-front.png",
+  },
+  {
+    "id": 11,
+    "name": "Aston Martin",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Aston_Martin_Rapide_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2812%29_%28cropped%29.jpg/356px-Aston_Martin_Rapide_-_Flickr_-_Alexandre_Pr%C3%A9vot_%2812%29_%28cropped%29.jpg",
+  },
+  {
+    "id": 12,
+    "name": "McClaren",
+    "image": "http://cars.mclaren.com/files/live/sites/mclaren/files/cars-mclaren-com-Main/McLaren%20Model%20Section/675LT/Design/Shot05_675LT_Profile-resize1500x937.jpg",
+  }
+]
