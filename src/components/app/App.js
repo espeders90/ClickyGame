@@ -1,8 +1,7 @@
-
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './components/bootstrap/navbar.js';
-import Body from './components/bootstrap/body.js';
+import Navbar from '../bootstrap/navbar.js';
+import Body from '../bootstrap/body.js';
 
 //create comparative function (reset or total one)
 
