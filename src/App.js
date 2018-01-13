@@ -13,7 +13,7 @@ class App extends Component {
 
   removeCar = id => {
     // Filter this.state.car for car with an id not equal to the id being removed
-    const cars = this.state.cars.filter(cars => cars.id !== id);
+    const cars = this.state.cars.filter(car => car.id !== id);
     // Set this.state.friends equal to the new friends array
     this.setState({ cars });
   };
@@ -26,10 +26,10 @@ class App extends Component {
         {this.state.cars.map(car => (
           <Car
             removeCar={this.removeCar}
-            id={Car.id}
-            key={Car.id}
-            name={Car.name}
-            image={Car.image}
+            id={car.id}
+            key={car.id}
+            name={car.name}
+            image={car.image}
           />
         ))}
       </Wrapper>
