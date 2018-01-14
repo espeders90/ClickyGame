@@ -5,6 +5,8 @@ import Title from "./components/Title";
 import cars from "./cars.json";
 import "./App.css";
 
+const Counter = () => <Counter />
+
 class App extends Component {
   // Setting this.state.friends to the cars json array
   state = {
@@ -22,7 +24,16 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Cars List</Title>
+        // <Title>Cars List</Title>
+        //       <div className="panel panel-primary">
+        //         <div className="panel-heading">Click Counter!</div>
+        //             <div className="panel-body text-center">
+        //               <p>Click Count: {this.state.count}</p>
+        //             <button className="btn btn-primary" onClick={this.handleIncrement}>
+        //                 Increment
+        //               </button>
+        //             </div>
+        //       </div>
         {this.state.cars.map(car => (
           <Car
             removeCar={this.removeCar}
