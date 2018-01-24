@@ -5,7 +5,7 @@ import Title from "./components/Title";
 import cars from "./cars.json";
 import "./App.css";
 
-const Counter = () => <Counter />
+// const Counter = () => <Counter />;
 
 class App extends Component {
   // Setting this.state.friends to the cars json array
@@ -24,16 +24,23 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        // <Title>Cars List</Title>
-        //       <div className="panel panel-primary">
-        //         <div className="panel-heading">Click Counter!</div>
-        //             <div className="panel-body text-center">
-        //               <p>Click Count: {this.state.count}</p>
-        //             <button className="btn btn-primary" onClick={this.handleIncrement}>
-        //                 Increment
-        //               </button>
-        //             </div>
-        //       </div>
+          <header className="App-header">
+          <img src="https://images.template.net/wp-content/uploads/2015/11/21154943/BMW-M4-Background-Wallpaper-Design.jpg" className="App-logo" alt="logo"/>
+          <h1 className="App-title">Car ClickyGame</h1>
+          </header>
+          <h2>Instructions:</h2>
+          <h3>Pick a car without clicking it again. Keep picking right to add points until you click a car twice!</h3>
+         
+         <Title>Cars List</Title>
+               <div className="panel panel-primary">
+                 <div className="panel-heading">Click Counter!</div>
+                     <div className="panel-body text-center">
+                       <p>Click Count: {this.state.count}</p>
+                     <button className="btn btn-primary" onClick={this.handleIncrement}>
+                         Increment
+                       </button>
+                     </div>
+               </div>
         {this.state.cars.map(car => (
           <Car
             removeCar={this.removeCar}
